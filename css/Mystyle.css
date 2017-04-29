@@ -2,7 +2,10 @@
 
 body{
 font-family: 'Tangerine', cursive;
-font-size: 20px;    
+font-size: 20px;   
+color: #7a899a;
+position: relative;
+font-size: 1em;    
 }
 
   nav {
@@ -16,7 +19,7 @@ font-size: 20px;
     font-size: 0.8em;
     padding: 10px 0; }
     nav ul li a {
-      color: #e31837;
+      color: #ccffcc;
       font-weight: 900;
       padding: 10px 20px;
       border: 2px solid transparent; }
