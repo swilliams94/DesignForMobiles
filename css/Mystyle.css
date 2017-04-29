@@ -1,5 +1,27 @@
 @import url(https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">);
+
 body{
 font-family: 'Tangerine', cursive;
 font-size: 20px;    
 }
+
+    nav ul li {
+      text-align: center;
+      width: 100%;
+      padding: 0;
+      margin: 0; }
+      nav ul li a {
+        display: block;
+        color: #7a899a;
+        margin: 0; }
+        nav ul li a:hover {
+          background-color: #dae4ed; }
+          nav ul li a:hover .fa {
+            color: #7a899a; }
+    nav:hover > a {
+      background-color: white;
+      color: #7a899a;
+      box-shadow: 2px 2px 3px -1px #dae4ed; }
+    nav:hover ul {
+      display: block;
+      z-index: 99999; }
